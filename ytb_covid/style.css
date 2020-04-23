@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(43, 42, 42);
+    color: white;
+    font-size: 20px;
+    line-height: 1.6em;
+}
+
+.head{
+    font-size: 50px;
+    padding: 20px;
+    font-weight: 500;
+    text-align: center;
+    border: 2px rgb(94, 89, 89) solid;
+    margin-bottom: 30px;
+}
+
+.nav{
+    top: 0;
+    position: sticky;
+    background-color:rgb(43, 42, 42) ;
+    box-sizing: border-box;
+}
+
+.nav ul{
+    list-style: none;
+    margin: 0;
+}
+
+.nav li{
+    font-size: 30px;
+    display: inline;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: tomato;
+}
+
+.main{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding-left: 30px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+#search{
+    text-align: center;
+}
+
+#r_value{
+    font-size: 20px;
+}
+
+#search img{
+    height: 24px;
+    width: 24px;
+    background-color: white;
+}
+
+#infect{
+    color: red;
+}
+
+#recover{
+    color: green;
+}
+
+#co{
+    height: 150px;
+    width: 100%;
+    background-image: url('./Assets/virus2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#co h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+}
+
+.precautions{
+    margin-left: 30px;
+}
+
+.precautions img{
+    padding-top: 10px;
+    padding-left: 30px;
+    height: 300px;
+    width: 400px;
+}
+
+.pre{
+    float: left;
+    box-sizing: border-box;
+}
+
+#giff{
+    height: 40px;
+    width: 40px;
+}
+
+.foot{
+    margin-left: 20%;
+    margin-top: 40px;
+    width: 60%;
+    text-align: center;
+    border: 3px white dashed;
+    border-radius: 20px;
+}

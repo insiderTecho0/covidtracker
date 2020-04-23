@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="head">
+        Insider Techo 
+    </div>
+
+    <div class="nav">
+        <ul>
+            <li><a href="https://www.who.int/health-topics/coronavirus">About</a></li>
+            <li><a href="https://www.google.com/search?q=coronavirus&sxsrf=ALeKk025EgogiuohYtGCNpoT_ZRfwCM9Uw:1587552025521&source=lnms&tbm=nws&sa=X&ved=2ahUKEwi-m6yU7PvoAhVIU30KHaOXD8sQ_AUoAXoECCEQAw&biw=1366&bih=669">Latest News</a></li>
+            <li><a href="https://www.youtube.com/channel/UCnd23UAxq_FpP5O22G-9icg">Our channel</a></li>
+            <li><a href="https://www.youtube.com/watch?v=khJlrj3Y6Ls&t=430s">Inspiration</a></li>
+        </ul>
+        <hr>
+    </div>
+
+    <div class="data">
+        
+        <div id="co">
+            <h1>COVID-19 TRACKER</h1>
+            <div id="search">
+                <input type="text" placeholder="Name of the country" id="r_value">
+                <img id="btn"  src="./Assets/search.png">
+            </div>
+        </div>
+
+       
+
+        <div class="main" id="infect">
+            <h3>Infected</h3>
+            <span id="infect_data"></span>
+        </div>
+
+        <div class="main" id="death">
+            <h3>Deaths</h3>
+            <span id="death_data"></span>
+        </div>
+
+        <div class="main" id="recover">
+            <h3>Recovered</h3>
+            <span id="recover_data"></span>
+        </div>
+    </div>
+
+    <div class="precautions">
+        <h2>Some measures<img id="giff" src="./Assets/download.gif"> </h2>
+        <div class="pre">
+            <span>1.Wash your hands regularly with soap and water or <br>use alchohol based hand sanitisers.</span>
+            <br>
+            <img src="./Assets/hands.jpg">
+        </div>
+        <br>
+        <div class="pre">
+            <span>2.Wear masks when going outside.</span>
+            <br>
+            <img src="./Assets/workers.jpg">
+        </div>
+        <div class="pre">
+            <span>3.Stay Home.</span>
+            <br>
+            <img src="./Assets/home.jpeg">
+        </div>
+        <div class="pre">
+            <span>4.Eat healthy.</span>
+            <br>
+            <img src="./Assets/apple.jpg">
+        </div>
+        <div class="pre">
+            <span>5.Support the gov and hope for the best.</span>
+            <br>
+            <img src="./Assets/pray.jpg">
+        </div>
+        <div class="pre">
+            <br>
+            <img src="./Assets/help.jpg">
+        </div>
+    </div>
+    <div style="clear: both;"></div>
+    <div class="foot">
+        Made by Kunal.<br>
+        Data from - <a href="https://covid19.mathdro.id/api">https://covid19.mathdro.id/api</a>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
